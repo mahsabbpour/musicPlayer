@@ -1,0 +1,336 @@
+:root {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: rgb(228, 228, 228) !important;
+}
+
+.row > * {
+  padding: 0 !important;
+}
+
+#color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50% !important;
+}
+
+figure figcaption {
+  opacity: 0;
+  transition: 0.4s;
+}
+figure:hover figcaption {
+  opacity: 1;
+}
+
+.menu_top {
+  position: relative;
+  height: 65px;
+  background: snow !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  box-shadow: 0 0 1px 1px rgba(128, 128, 128, 0.251);
+}
+
+#menuRight #person {
+  border-radius: 25px;
+}
+
+#explore {
+  position: relative;
+}
+#explore .megaMenu1 {
+  position: absolute;
+  top: 65px;
+  transform: translateX(-50%);
+  border-radius: 15px;
+  z-index: 600;
+  width: 500px !important;
+  height: 330px !important;
+  display: none;
+  visibility: hidden;
+  transition: 1s;
+}
+#explore .megaMenu1 li > div > ul > li:nth-of-type(1) a {
+  font-weight: 500;
+}
+#explore:hover .megaMenu1 {
+  display: flex;
+  visibility: visible;
+}
+
+#others:hover #megaMenu2 {
+  opacity: 1;
+  visibility: visible;
+  opacity: 1;
+  z-index: 600;
+  border-radius: 15px;
+}
+#others #megaMenu2 {
+  opacity: 0;
+  transition: 0.4s;
+  visibility: hidden;
+  height: 130px;
+}
+#others #megaMenu2 ul li {
+  height: 30px;
+}
+
+.menu_hum span {
+  height: 2px;
+  width: 70%;
+  background: slategrey;
+}
+
+li {
+  list-style-type: none !important;
+}
+
+a {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+@media screen {
+  .fixed {
+    width: 210px;
+  }
+}
+
+input {
+  outline: none !important;
+  border-radius: 50px;
+  height: 40px;
+  text-indent: 10px;
+  cursor: text;
+  background-color: whitesmoke;
+  margin: 0em;
+  padding: 1px 2px;
+  border-width: 1px;
+  border-style: none;
+  -o-border-image: none;
+     border-image: none;
+  color: gray;
+}
+
+.toggle {
+  width: 40px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid gray;
+}
+
+.toggle > span {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  transition: 0.4s;
+}
+
+#searchBox {
+  position: absolute;
+  top: 65px;
+  z-index: 999;
+}
+#searchBox li {
+  height: 35px;
+  display: none;
+  transition: 0.4s;
+}
+#searchBox li:hover {
+  background: rgba(219, 219, 219, 0.498) !important;
+}
+
+#menu {
+  background: whitesmoke;
+  height: calc(100vh - 65px);
+  width: 280px;
+  transition: 0.5s;
+  transform: translate(-130%, 5px);
+  box-shadow: 0 0 1px 1px rgba(128, 128, 128, 0.251);
+}
+#menu li {
+  min-height: 35px;
+}
+#menu li:nth-of-type(1), #menu li:nth-of-type(8) {
+  height: 45px !important;
+}
+#menu li #subMenu {
+  overflow: hidden;
+  transition: 0.5s;
+}
+#menu li li {
+  height: 40px;
+}
+#menu li li a {
+  font-size: 14px !important;
+}
+
+.section1,
+.section2,
+.section3,
+.section4,
+.section5,
+.section6 {
+  transform: translateY(65px);
+}
+
+.section2,
+.section4 {
+  min-height: 120px !important;
+}
+.section2 figure,
+.section4 figure {
+  position: relative;
+}
+.section2 figure img,
+.section4 figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.section2 figure figcaption,
+.section4 figure figcaption {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 800 !important;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.662), transparent) !important;
+}
+.section2 figure figcaption h4,
+.section4 figure figcaption h4 {
+  font-size: 14px !important;
+}
+.section2 button,
+.section4 button {
+  background: snow;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 150;
+}
+.section2 .slick-prev:before,
+.section2 .slick-next:before,
+.section4 .slick-prev:before,
+.section4 .slick-next:before {
+  font-family: "slick";
+  font-size: 25px;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bolder !important;
+}
+.section2 .slick-next:before,
+.section4 .slick-next:before {
+  content: ">" !important;
+}
+.section2 .slick-prev:before,
+.section4 .slick-prev:before {
+  content: "<" !important;
+}
+
+.section4 {
+  min-height: 110px !important;
+}
+
+.section6 figure {
+  position: relative;
+  min-height: 270px !important;
+  background: rgb(240, 240, 240);
+}
+.section6 figure span,
+.section6 figure h6,
+.section6 figure h4 {
+  color: slateblue;
+}
+.section6 figure img {
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  left: 20%;
+  top: 5%;
+}
+.section6 figure figcaption {
+  opacity: 1;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+  transition: 0.4s;
+  height: 100px;
+}
+.section6 figure figcaption div div span {
+  position: absolute;
+  z-index: 40;
+  bottom: 2%;
+  right: 2%;
+}
+.section6 figure figcaption:hover::before {
+  opacity: 1;
+}
+.section6 figure figcaption:hover span,
+.section6 figure figcaption:hover h6,
+.section6 figure figcaption:hover h4 {
+  color: rgb(252, 249, 249) !important;
+  text-shadow: 1px 1px 1px rgba(105, 90, 205, 0.559);
+}
+.section6 figure figcaption::before {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 0.4s;
+  opacity: 0;
+  background-image: linear-gradient(to top, rgba(105, 90, 205, 0.559), transparent);
+}
+.section6 figure figcaption h4 {
+  font-size: 1.2rem;
+  top: 30%;
+}
+.section6 figure figcaption h4,
+.section6 figure figcaption h6 {
+  position: absolute;
+  z-index: 45;
+}
+.section6 figure figcaption h6 {
+  top: 75%;
+}
+
+.toggleSpan {
+  transform: translateX(20px);
+  background-color: white !important;
+}
+
+.bodyBack {
+  background-color: black !important;
+  color: white !important;
+}
+
+.darkModColor {
+  color: white !important;
+}
+
+.darkModBack {
+  background: black !important;
+}
+
+.darkModSearch {
+  background: rgb(23, 20, 20) !important;
+  color: snow !important;
+}/*# sourceMappingURL=master.css.map */

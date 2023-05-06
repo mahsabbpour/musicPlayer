@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waveme</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/master.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+
+
+</head>
+
+<body id="body">
+    <main class="comtainer-fluid container-xxl g-0">
+
+
+        <!-- *********startHeader -->
+        <div class="container-fluid g-0">
+            <div class="row">
+                <nav class="menu_top mx-0 px-0">
+                    <div class="container-fluid h-100">
+                        <div class="row h-100 justify-content-around">
+                            <div class="fixed  h-100">
+                                <div class="container-fluid px-0 mx-0 h-100">
+                                    <div class="row justify-content-start h-100">
+                                        <div class="menu_hum  col-4  h-100">
+                                            <div class="container-fluid  w-100 h-100">
+                                                <div id="menu_hum"
+                                                    class="row w-100 h-100   justify-content-center align-content-center">
+                                                    <span class="d-flex"></span>
+                                                    <span class="d-flex my-1"></span>
+                                                    <span class="d-flex"></span>
+                                                </div>
+                                            </div>
+                                            <ul id="menu">
+                                                <li class="text-secondary d-flex align-items-center text-capitalize">
+                                                    browse</li>
+                                                <li>
+                                                    <div class="row h-100">
+                                                        <div
+                                                            class="col-3 d-flex justify-content-start align-items-center">
+                                                            <svg  xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round" aria-hidden="true" role="img"
+                                                                focusable="false" class="svg-icon" viewBox="0 0 24 24"
+                                                                fill="currentColor">
+                                                                <path
+                                                                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 14.5c-2.49 0-4.5-2.01-4.5-4.5S9.51 7.5 12 7.5s4.5 2.01 4.5 4.5-2.01 4.5-4.5 4.5zm0-5.5c-.55 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z">
+                                                                </path>
+                                                            </svg>
+                                                        </div>
+                                                        <a class="text-capitalize col-9 h-100 d-flex justify-content-start align-items-center"
+                                                            href="">discover</a>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="row h-100">
+                                                        <div
+                                                            class="col-3 d-flex justify-content-start align-items-center">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round" aria-hidden="true" role="img"
+                                                                focusable="false" class="svg-icon" viewBox="0 0 24 24"
+                                                                fill="currentColor">
+                                                                <path
+                                                                    d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 5h-3v5.5a2.5 2.5 0 0 1-5 0 2.5 2.5 0 0 1 2.5-2.5c.57 0 1.08.19 1.5.51V5h4v2zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6z">
+                                                                </path>
+                                                            </svg>
+                                                        </div>
+                                                        <a class="col-6 h-100 d-flex justify-content-start align-items-center text-capitalize"
+                                                            href="">browse</a>
+                                                        <div class="col-3 d-flex justify-content- align-items-center"><i
+                                                                id="arrow_down" class="bi  bi-caret-down-fill"></i>
+                                                        </div>
+
+                                                        <ul id="subMenu" class="w-100 d-none h-100">
+                                                            <li class="w-100"><a
+                                                                    class="text-capitalize justify-content-center w-100 h-100 d-flex align-items-center"
+                                                                    href="">music</a></li>
+                                                            <li class="w-100"><a
+                                                                    class="text-capitalize justify-content-center w-100 h-100 d-flex align-items-center"
+                                                                    href="">podcast</a></li>
+                                                            <li class="w-100"><a
+                                                                    class="text-capitalize justify-content-center w-100 h-100 d-flex align-items-center"
+                                                                    href="">genre</a></li>
+                                                        </ul>
+                                                    </div>
+
+                                                </li>
+                                                <li>
+                                                    <div class="row h-100">
+                                                        <div
+                                                            class="col-3 d-flex justify-content-start align-items-center">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round" aria-hidden="true" role="img"
+                                                                focusable="false" class="svg-icon" viewBox="0 0 24 24"
+                                                                fill="currentColor">
+                                                                <path
+                                                                    d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z">
+                                                                </path>
+                                                            </svg>
+                                                        </div>
+                                                        <a class="col-9 h-100 d-flex justify-content-start align-items-center text-capitalize"
+                                                            href="">new release</a>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="row h-100">
+                                                        <div
+                                                            class="col-3 d-flex justify-content-start align-items-center">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round" aria-hidden="true" role="img"
+                                                                focusable="false" class="svg-icon" viewBox="0 0 24 24"
+                                                                fill="currentColor">
+                                                                <path
+                                                                    d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z">
+                                                                </path>
+                                                            </svg>
+                                                        </div>
+                                                        <a class="col-9 h-100 d-flex justify-content-start align-items-center text-capitalize"
+                                                            href="">popular</a>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="row h-100">
+                                                        <div
+                                                            class="col-3 d-flex justify-content-start align-items-center">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round" aria-hidden="true" role="img"
+                                                                focusable="false" class="svg-icon" viewBox="0 0 24 24"
+                                                                fill="currentColor">
+                                                                <path
+                                                                    d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z">
+                                                                </path>
+                                                            </svg>
+                                                        </div>
+                                                        <a class="col-9 h-100 d-flex justify-content-start align-items-center text-capitalize"
+                                                            href="">charts</a>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="row h-100">
+                                                        <div
+                                                            class="col-3 d-flex justify-content-start align-items-center">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round" aria-hidden="true" role="img"
+                                                                focusable="false" class="svg-icon" viewBox="0 0 24 24"
+                                                                fill="currentColor">
+                                                                <path
+                                                                    d="M3.24 6.15C2.51 6.43 2 7.17 2 8v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8c0-1.11-.89-2-2-2H8.3l8.26-3.34L15.88 1 3.24 6.15zM7 20c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm13-8h-2v-2h-2v2H4V8h16v4z">
+                                                                </path>
+                                                            </svg>
+                                                        </div>
+                                                        <a class="col-9 h-100 d-flex justify-content-start align-items-center text-capitalize"
+                                                            href="">radio</a>
+                                                    </div>
+                                                </li>
+                                                <li class="text-secondary  d-flex align-items-center text-capitalize">
+                                                    library
+                                                </li>
+                                                <li>
+                                                    <div class="row h-100">
+                                                        <div
+                                                            class="col-3 d-flex justify-content-start align-items-center">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round" aria-hidden="true" role="img"
+                                                                focusable="false" class="svg-icon" viewBox="0 0 24 24"
+                                                                fill="currentColor">
+                                                                <path
+                                                                    d="M12 1a9 9 0 0 0-9 9v7c0 1.66 1.34 3 3 3h3v-8H5v-2c0-3.87 3.13-7 7-7s7 3.13 7 7v2h-4v8h3c1.66 0 3-1.34 3-3v-7a9 9 0 0 0-9-9z">
+                                                                </path>
+                                                            </svg>
+                                                        </div>
+                                                        <a class="col-9 h-100 d-flex justify-content-start align-items-center text-capitalize"
+                                                            href="">stream</a>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="row h-100">
+                                                        <div
+                                                            class="col-3 d-flex justify-content-start align-items-center">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round" aria-hidden="true" role="img"
+                                                                focusable="false" class="svg-icon" viewBox="0 0 24 24"
+                                                                fill="currentColor">
+                                                                <path
+                                                                    d="M15 6H3v2h12V6zm0 4H3v2h12v-2zM3 16h8v-2H3v2zM17 6v8.18c-.31-.11-.65-.18-1-.18-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3V8h3V6h-5z">
+                                                                </path>
+                                                            </svg>
+                                                        </div>
+                                                        <a class="col-9 h-100 d-flex justify-content-start align-items-center text-capitalize"
+                                                            href="">playlist</a>
+                                                    </div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="row">
+                                                        <div
+                                                            class="col-3 d-flex justify-content-start align-items-center">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" stroke-width="2" stroke-linecap="round"
+                                                                stroke-linejoin="round" aria-hidden="true" role="img"
+                                                                focusable="false" class="svg-icon" viewBox="0 0 24 24"
+                                                                fill="currentColor">
+                                                                <path
+                                                                    d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z">
+                                                                </path>
+                                                            </svg>
+                                                        </div>
+                                                        <a class="col-9 h-100 d-flex justify-content-start align-items-center text-capitalize"
+                                                            href="">likes</a>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="row">
+                                                        <div
+                                                            class="col-3 d-flex justify-content-start align-items-center">
+                                                            <input id="color" type="color">
+                                                        </div>
+                                                        <a class="col-9 h-100 d-flex justify-content-start align-items-center text-capitalize"
+                                                            href="">primary color</a>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="row">
+                                                        <div
+                                                            class="col-3 d-flex justify-content-start align-items-center">
+                                                            <div class="toggle" onclick="_toggle()">
+                                                                <span></span>
+                                                            </div>
+                                                        </div>
+                                                        <a class="col-9 h-100 d-flex justify-content-start align-items-center text-capitalize"
+                                                            href="">dark mode</a>
+                                                    </div>
+                                                </li>
+
+
+                                            </ul>
+                                        </div>
+                                        <div class="col-4 d-flex justify-content-center align-items-center  ">
+                                            <svg id="svgMenu" width="40" height="36" viewBox="0 0 24 24"
+                                                xmlns="http://www.w3.org/2000/svg" fill="none" stroke-width="1.5"
+                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                                                <g class="loading-bounce">
+                                                    <line style="--n: 0" x1="3" y1="12" x2="3" y2="12"></line>
+                                                    <line style="--n: 1" x1="6" y1="10" x2="6" y2="14"></line>
+                                                    <line style="--n: 2" x1="9" y1="8" x2="9" y2="16"></line>
+                                                    <line style="--n: 3" x1="12" y1="4" x2="12" y2="20"></line>
+                                                    <line style="--n: 4" x1="15" y1="9" x2="15" y2="15"></line>
+                                                    <line style="--n: 5" x1="18" y1="7" x2="18" y2="17"></line>
+                                                    <line style="--n: 6" x1="21" y1="11" x2="21" y2="13"></line>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                        <div class="col-4  ">
+                                            <a id="logo" class="text-capitalize d-flex w-100 h-100 align-items-center justify-content-center "
+                                                href="">weveme</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-none h-100 d-md-flex align-items-center col-md-2 col-lg-3 col-xl-4">
+                                <input id="search" class="w-100" placeholder="seacrh..." type="search">
+
+                                <ul id="searchBox" class="bg-light m-0 p-0 g-0 col-md-2 col-lg-3 col-xl-4">
+                                    <li class="w-100 px-3">ebi/shab niloofari</li>
+                                    <li class="w-100 px-3">ebi/jan javani</li>
+                                    <li class="w-100 px-3">shadmehr/batel</li>
+                                    <li class="w-100 px-3">shadmehr/yakh zadam</li>
+                                    <li class="w-100 px-3">shadmehr/to bi man</li>
+                                    <li class="w-100 px-3">shadmehr/entekhab</li>
+                                    <li class="w-100 px-3">shadmehr/gomet kardam</li>
+                                    <li class="w-100 px-3">shadmehr/taghdir</li>
+                                    <li class="w-100 px-3">shadmehr/bi ehsas</li>
+                                    <li class="w-100 px-3">shadmehr/tamasha</li>
+                                    <li class="w-100 px-3">ebi/hasrat parvaz</li>
+                                    <li class="w-100 px-3">ebi/tolo kon</li>
+                                    <li class="w-100 px-3">ebi/mast cheshat</li>
+                                    <li class="w-100 px-3">radioSam/part1</li>
+                                    <li class="w-100 px-3">radioSam/part2</li>
+                                    <li class="w-100 px-3">radioSam/part3</li>
+                                    <li class="w-100 px-3">radioSam/part4</li>
+                                    <li class="w-100 px-3">radioSam/part5</li>
+                                    <li class="w-100 px-3">radioSam/part6</li>
+                                    <li class="w-100 px-3">radioSam/part7</li>
+ 
+                                </ul>
+                            </div>
+
+
+
+                            <ul id="menuRight" class="col-5 col-md-4 g-0  h-100">
+                                <div class="container-fluid h-100">
+                                    <div class="row g-0 mx-0 px-0  h-100 justify-content-center col-12">
+                                        <li class="col-1 h-100 d-md-none col-md-1"><a
+                                                class="w-100 h-100 d-flex justify-content-center align-items-center"
+                                                href=""><i class="bi bi-search"></i></a></li>
+                                        <li id="explore" class=" h-100 d-none d-md-flex col-md-2"><a
+                                                class="w-100 h-100 d-flex justify-content-center align-items-center"
+                                                href="">explore</a>
+
+                                            <ul id="megaMenu1" class="megaMenu1 bg-light p-3">
+                                                <li class="col-12 h-100">
+                                                    <div class="row g-0 justify-content-around col-12 px-0 mx-0 h-100">
+                                                        <ul class="col-4 h-100 row px-0 mx-0 align-content-around ">
+                                                            <li><a class="w-100 h-100 d-flex justify-content-center align-items-center text-capitalize text-dark"
+                                                                    href="">Pages</a></li>
+                                                            <li><a class="w-100 h-100 d-flex justify-content-center align-items-center text-capitalize text-dark"
+                                                                    href="">Page without nav</a></li>
+                                                            <li><a class="w-100 h-100 d-flex justify-content-center align-items-center text-capitalize text-dark"
+                                                                    href="">Page with sidebar</a></li>
+                                                            <li><a class="w-100 h-100 d-flex justify-content-center align-items-center text-capitalize text-dark"
+                                                                    href="">Page with diff footer</a></li>
+                                                            <li><a class="w-100 h-100 d-flex justify-content-center align-items-center text-capitalize text-dark"
+                                                                    href="">Infinite comments</a></li>
+                                                            <li><a class="w-100 h-100 d-flex justify-content-center align-items-center text-capitalize text-dark"
+                                                                    href="">Landing</a></li>
+                                                            <li><a class="w-100 h-100 d-flex justify-content-center align-items-center text-capitalize text-dark"
+                                                                    href="">About</a></li>
+                                                            <li><a class="w-100 h-100 d-flex justify-content-center align-items-center text-capitalize text-dark"
+                                                                    href="">Blog</a></li>
+                                                            <li><a class="w-100 h-100 d-flex justify-content-center align-items-center text-capitalize text-dark"
+                                                                    href="">Contact</a></li>
+
+                                                        </ul>
+                                                        <ul class="col-4 h-100  row px-0 mx-0 align-content-around">
+                                                            <li><a class="w-100 h-100 d-flex justify-content-center align-items-center text-capitalize text-dark"
+                                                                    href="">loop</a></li>
+                                                            <li><a class="w-100 h-100 d-flex justify-content-center align-items-center text-capitalize text-dark"
+                                                                    href="">grid & list style</a></li>
+                                                            <li><a class="w-100 h-100 d-flex justify-content-center align-items-center text-capitalize text-dark"
+                                                                    href="">thumbnail</a></li>
+                                                            <li><a class="w-100 h-100 d-flex justify-content-center align-items-center text-capitalize text-dark"
+                                                                    href="">columns</a></li>
+                                                            <li><a class="w-100 h-100 d-flex justify-content-center align-items-center text-capitalize text-dark"
+                                                                    href="">slider</a></li>
+                                                            <li><a class="w-100 h-100 d-flex justify-content-center align-items-center text-capitalize text-dark"
+                                                                    href="">pagination</a></li>
+                                                            <li><a class="w-100 h-100 d-flex justify-content-center align-items-center text-capitalize text-dark"
+                                                                    href="">load more</a></li>
+                                                            <li><a class="w-100 h-100 d-flex justify-content-center align-items-center text-capitalize text-dark"
+                                                                    href="">infinite</a></li>
+
+                                                        </ul>
+                                                        <ul class="col-4 h-100  row px-0 mx-0 align-content-around">
+
+                                                            <li><a class="w-100 h-100 d-flex justify-content-center align-items-center text-capitalize text-dark"
+                                                                    href="">play</a></li>
+                                                            <li><a class="w-100 h-100 d-flex justify-content-center align-items-center text-capitalize text-dark"
+                                                                    href="">album</a></li>
+                                                            <li><a class="w-100 h-100 d-flex justify-content-center align-items-center text-capitalize text-dark"
+                                                                    href="">playList</a></li>
+                                                            <li><a class="w-100 h-100 d-flex justify-content-center align-items-center text-capitalize text-dark"
+                                                                    href="">youtube music</a></li>
+                                                            <li><a class="w-100 h-100 d-flex justify-content-center align-items-center text-capitalize text-dark"
+                                                                    href="">youtube</a></li>
+                                                            <li><a class="w-100 h-100 d-flex justify-content-center align-items-center text-capitalize text-dark"
+                                                                    href="">hearthis</a></li>
+                                                            <li><a class="w-100 h-100 d-flex justify-content-center align-items-center text-capitalize text-dark"
+                                                                    href="">soundcloude</a></li>
+                                                            <li><a class="w-100 h-100 d-flex justify-content-center align-items-center text-capitalize text-dark"
+                                                                    href="">shoutcast</a></li>
+                                                            <li><a class="w-100 h-100 d-flex justify-content-center align-items-center text-capitalize text-dark"
+                                                                    href="">icecast</a></li>
+
+                                                        </ul>
+                                                    </div>
+
+                                                </li>
+                                            </ul>
+
+
+
+                                        </li>
+                                        <li id="others" class="col-3  h-100 mx-1"><a
+                                                class="w-100 h-100 d-flex justify-content-center align-items-center"
+                                                href="">...</a>
+
+                                            <ul id="megaMenu2" class=" p-3 bg-light">
+                                                <li class="w-100">
+                                                    <ul class="col-4 h-100 row px-0 mx-0 align-content-around">
+                                                        <li class="text-capitalize text-center">purchase</li>
+                                                        <li class="text-capitalize text-center">document</li>
+                                                        <li class="text-capitalize text-center">feedBack</li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+
+
+
+                                        </li>
+                                        <li class="col-2 h-100 "><a
+                                                class="w-100 h-100 d-flex justify-content-center align-items-center"
+                                                href="">signin</a></li>
+
+                                        <li class="col-3 h-100">
+                                            <div class="container-fluid g-0 w-100 h-100 d-flex align-items-center">
+                                                <div id="person"
+                                                    class="row h-50 justify-content-center w-100 g-0">
+                                                    <i
+                                                        class="h-100 col-3 me-2 align-items-center d-flex justify-content-center bi bi-person-fill"></i><a
+                                                        class="d-none d-md-flex col-md-7 justify-content-center align-items-center"
+                                                        href="">signup</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </div>
+                                </div>
+
+                            </ul>
+                        </div>
+
+
+
+                    </div>
+            </div>
+            </nav>
+        </div>
+        <div class="container section1 mt-4">
+            <div class="row justify-content-center justify-content-md-end">
+                <div class="col-11 col-md-10  ">
+                    <div class="row px-0 mx-0">
+                        <h3 class="text-capitalize text-start">featured</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- *************section2 -->
+
+        <div class="container my-2 section2">
+            <div class="row gx-0 justify-content-center justify-content-md-end h-100">
+                <div class="col-11 col-md-10  h-100">
+                    <div class="row gx-0 px-0 mx-0 h-100 my-auto">
+
+                        <div class="responsive">
+
+                            <div class="mx-2 h-100">
+                                <figure class="w-100 h-100">
+                                    <div class="row px-0 mx-0 h-100">
+                                        <img class="w-100" src="assets/img/5.png" alt="">
+                                        <figcaption class="h-100 w-100">
+                                            <div class="row align-content-between px-0 mx-0 h-100">
+                                                <span
+                                                    class="d-flex  justify-content-end h4 text-light align-items-center"><i
+                                                        class="bi bi-three-dots-vertical"></i></span>
+
+                                                <div class="row px-0 mx-0 justify-content-around">
+                                                    <div class="col-10">
+                                                        <h4 class="text-light text-capitalize px-2">mia</h4>
+                                                        <p class="text-light px-2">Bad Bunny Feat. Drake</p>
+
+                                                    </div>
+                                                    <span
+                                                        class="d-flex col-2 justify-content-center h3 text-light align-items-center"><i
+                                                            class="bi bi-play-circle-fill"></i></span>
+
+                                                </div>
+
+
+                                            </div>
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="mx-2 h-100">
+                                <figure class="w-100 h-100">
+                                    <div class="row px-0 mx-0 h-100">
+                                        <img class="w-100" src="assets/img/2.png" alt="">
+                                        <figcaption class="h-100 w-100">
+                                            <div class="row align-content-between px-0 mx-0 h-100">
+                                                <span
+                                                    class="d-flex  justify-content-end h4 text-light align-items-center"><i
+                                                        class="bi bi-three-dots-vertical"></i></span>
+
+                                                <div class="row px-0 mx-0 justify-content-around">
+                                                    <div class="col-10">
+                                                        <h4 class="text-light text-capitalize px-2">Blues Radio UK
+
+                                                        </h4>
+                                                        <p class="text-light px-2"> Daria Shevtsova</p>
+
+                                                    </div>
+                                                    <span
+                                                        class="d-flex col-2 justify-content-center h3 text-light align-items-center"><i
+                                                            class="bi bi-play-circle-fill"></i></span>
+
+                                                </div>
+
+
+                                            </div>
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="mx-2 h-100">
+                                <figure class="w-100 h-100">
+                                    <div class="row px-0 mx-0 h-100">
+                                        <img class="w-100" src="assets/img/3.png" alt="">
+                                        <figcaption class="h-100 w-100">
+                                            <div class="row align-content-between px-0 mx-0 h-100">
+                                                <span
+                                                    class="d-flex p-2  justify-content-end h4 text-light align-items-center"><i
+                                                        class="bi bi-three-dots-vertical"></i></span>
+
+                                                <div class="row px-0 mx-0 justify-content-around">
+                                                    <div class="col-10">
+                                                        <h4 class="text-light text-capitalize px-2"> Daria Shevtsova
+                                                        </h4>
+                                                        <p class="text-light px-2">Maroon 5 Feat. Cardi B</p>
+
+                                                    </div>
+                                                    <span
+                                                        class="d-flex col-2 justify-content-center h3 text-light align-items-center"><i
+                                                            class="bi bi-play-circle-fill p-2"></i></span>
+
+                                                </div>
+
+
+                                            </div>
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="mx-2 h-100">
+                                <figure class="w-100 h-100">
+                                    <div class="row px-0 mx-0 h-100">
+                                        <img class="w-100" src="assets/img/4.png" alt="">
+                                        <figcaption class="h-100 w-100">
+                                            <div class="row align-content-between px-0 mx-0 h-100">
+                                                <span
+                                                    class="d-flex  justify-content-end h4 text-light align-items-center"><i
+                                                        class="bi bi-three-dots-vertical"></i></span>
+
+                                                <div class="row px-0 mx-0 justify-content-around">
+                                                    <div class="col-10">
+                                                        <h4 class="text-light text-capitalize px-2">Happier
+                                                        </h4>
+                                                        <p class="text-light px-2"> Marshmello & Bastille</p>
+
+                                                    </div>
+                                                    <span
+                                                        class="d-flex col-2 justify-content-center h3 text-light align-items-center"><i
+                                                            class="bi bi-play-circle-fill"></i></span>
+
+                                                </div>
+
+
+                                            </div>
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="mx-2 h-100">
+                                <figure class="w-100 h-100">
+                                    <div class="row px-0 mx-0 h-100">
+                                        <img class="w-100" src="assets/img/1.png" alt="">
+                                        <figcaption class="h-100 w-100">
+                                            <div class="row align-content-between px-0 mx-0 h-100">
+                                                <span
+                                                    class="d-flex  justify-content-end h4 text-light align-items-center"><i
+                                                        class="bi bi-three-dots-vertical"></i></span>
+
+                                                <div class="row px-0 mx-0 justify-content-around">
+                                                    <div class="col-10">
+                                                        <h4 class="text-light text-capitalize px-2">
+                                                            Radio Romania Actualitati
+
+                                                        </h4>
+                                                        <p class="text-light px-2">Daria Shevtsova</p>
+
+                                                    </div>
+                                                    <span
+                                                        class="d-flex col-2 justify-content-center h3 text-light align-items-center"><i
+                                                            class="bi bi-play-circle-fill"></i></span>
+
+                                                </div>
+
+
+                                            </div>
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- section3*************** -->
+        <div class="container section3 mt-4">
+            <div class="row justify-content-center justify-content-md-end">
+                <div class="col-11 col-md-10">
+                    <div class="row px-0 mx-0">
+                        <h3 class="text-capitalize text-start">Recommended for you</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ***************section4 -->
+
+        <div class="container mt-2 mb-4 section4">
+            <div class="row gx-0 justify-content-center justify-content-md-end h-100">
+                <div class="col-11 col-md-10 h-100">
+                    <div class="row gx-0 px-0 mx-0 h-100 my-auto">
+
+
+
+                        <div id="shadmehr" class="responsive">
+
+                            <div class="mx-2 h-100">
+                                <figure class="w-100 h-100">
+                                    <div class="row px-0 mx-0 h-100">
+                                        <img class="w-100" src="assets/img/6.jpg" alt="">
+                                        <figcaption class="h-100 w-100">
+
+                                            <span
+                                                class="d-flex w-100 h-100 justify-content-end h3 p-2 text-light align-items-end"><i
+                                                    class="bi bi-play-circle-fill"></i></span>
+                                            <audio id="entekhab" src="http://dl3.golsarmusic.ir/GolsarMusic-Root-DL3/99/05%20Mordad/06/Shadmehr-Aghili-Entekhab-320.mp3"
+                                                loop></audio>
+
+
+
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="mx-2 h-100">
+                                <figure class="w-100 h-100">
+                                    <div class="row px-0 mx-0 h-100">
+                                        <img class="w-100" src="assets/img/Shadmehr-Aghili-Hamishegi.jpg" alt="">
+                                        <figcaption class="h-100 w-100">
+
+                                            <span
+                                                class="d-flex w-100 p-2 h-100 justify-content-end h3 text-light align-items-end"><i
+                                                    class="bi bi-play-circle-fill"></i></span>
+                                            <audio id="gom" src="https://dl.pinkmusic.ir/uploads/2023/04/Shadmehr-Aghili-Hamishegi.mp3"
+                                                loop></audio>
+
+
+
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="mx-2 h-100">
+                                <figure class="w-100 h-100">
+                                    <div class="row px-0 mx-0 h-100">
+                                        <img class="w-100" src="assets/img/Shadmehr-Aghili-Door-Shodi.jpg" alt="">
+                                        <figcaption class="h-100 w-100">
+
+                                            <span
+                                                class="d-flex w-100 h-100 p-2 justify-content-end h3 text-light align-items-end"><i
+                                                    class="bi bi-play-circle-fill"></i></span>
+                                            <audio id="sarnevesht"
+                                                src="https://dl.pinkmusic.ir/uploads/2022/10/Shadmehr-Aghili-Door-Shodi.mp3" loop></audio>
+
+
+
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="mx-2 h-100">
+                                <figure class="w-100 h-100">
+                                    <div class="row px-0 mx-0 h-100">
+                                        <img class="w-100" src="assets/img/9.jpg" alt="">
+                                        <figcaption class="h-100 w-100">
+
+                                            <span
+                                                class="d-flex w-100 h-100 p-2 justify-content-end h3 text-light align-items-end"><i
+                                                    id="shBatel" class="bi bi-play-circle-fill"></i></span>
+                                            <audio id="batel"
+                                                src="https://dl.pinkmusic.ir/uploads/2022/07/Shadmehr-Aghili-Batel-128.mp3"
+                                                loop></audio>
+
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="mx-2 h-100">
+                                <figure class="w-100 h-100">
+                                    <div class="row px-0 mx-0 h-100">
+                                        <img class="w-100" src="assets/img/10.jpg" alt="">
+                                        <figcaption class="h-100 w-100">
+
+                                            <span
+                                                class="d-flex w-100 p-2 h-100 justify-content-end h3 text-light align-items-end"><i
+                                                    class="bi bi-play-circle-fill"></i></span>
+                                            <audio id="ice"
+                                                src="https://dl.pinkmusic.ir/uploads/2022/11/Shadmehr-Aghili-Yakh-Zadam.mp3"></audio>
+
+
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="mx-2 h-100">
+                                <figure class="w-100 h-100">
+                                    <div class="row px-0 mx-0 h-100">
+                                        <img class="w-100" src="assets/img/11.jpg" alt="">
+                                        <figcaption class="h-100 w-100">
+
+                                            <span
+                                                class="d-flex w-100 p-2 h-100 justify-content-end h3 text-light align-items-end"><i
+                                                    class="bi bi-play-circle-fill"></i></span>
+                                            <audio id="taghdir" src="https://dl.pinkmusic.ir/uploads/2023/03/Shadmehr-Aghili-Taghdir-320.mp3"
+                                                loop></audio>
+
+
+
+
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="mx-2 h-100">
+                                <figure class="w-100 h-100">
+                                    <div class="row px-0 mx-0 h-100">
+                                        <img class="w-100" src="assets/img/12.jfif" alt="">
+                                        <figcaption class="h-100 w-100">
+
+                                            <span
+                                                class="d-flex w-100 h-100 p-2 justify-content-end h3 text-light align-items-end"><i
+                                                    class="bi bi-play-circle-fill"></i></span>
+                                            <audio id="biEhsas"
+                                                src="http://dl3.golsarmusic.ir/GolsarMusic-Root-DL3/99/04%20Tir/24/Shadmehr-Aghili-Bi-Ehsas.mp3"
+                                                loop></audio>
+
+
+
+
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="mx-2 h-100">
+                                <figure class="w-100 h-100">
+                                    <div class="row px-0 mx-0 h-100">
+                                        <img class="w-100" src="assets/img/13.jfif" alt="">
+                                        <figcaption class="h-100 w-100">
+
+                                            <span
+                                                class="d-flex w-100 h-100 p-2 justify-content-end h3 text-light align-items-end"><i
+                                                    class="bi bi-play-circle-fill"></i></span>
+                                            <audio id="tamasha" src="https://dl.pinkmusic.ir/uploads/2023/03/Shadmehr-Aghili-Tamasha.mp3"
+                                                loop></audio>
+
+
+
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="mx-2 h-100">
+                                <figure class="w-100 h-100">
+                                    <div class="row px-0 mx-0 h-100">
+                                        <img class="w-100" src="assets/img/-14.jpg" alt="">
+                                        <figcaption class="h-100 w-100">
+
+                                            <span
+                                                class="d-flex p-2 w-100 h-100 justify-content-end h3 text-light align-items-end"><i
+                                                    class="bi bi-play-circle-fill"></i></span>
+                                            <audio id="to" src="https://dl.number1music.org/MOHSEN/Tak%20Ahang/1396/96.10/Week%201/01/Shadmehr%20Aghili%20-%20To%20Bi%20Man%20[128].mp3"
+                                                loop></audio>
+
+
+
+
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- **********************section5 -->
+        <div class="container section3 mt-5">
+            <div class="row justify-content-center justify-content-md-end">
+                <div class="col-11 col-md-10">
+                    <div class="row px-0 mx-0">
+                        <h3 class="text-capitalize text-start">online radio</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- **********************section6 -->
+
+
+
+        
+
+        <div class="container mt-2 mb-4 section6 ">
+            <div class="row gx-0 justify-content-center justify-content-md-end h-100">
+                <div class="col-11 col-md-10 h-100">
+                    <div class="row gx-0 px-0 mx-0 h-100 my-auto">
+
+                        <div id="radioSam" class="responsive  autoplay">
+
+                            <div class="mx-2 h-100">
+                                <figure class="w-100 h-100">
+                                    <div class="row px-0 mx-0 h-100">
+                                        <img src="assets/img/radiosam.jpg" alt="">
+                                        <figcaption class=" w-100">
+                                            <div class="row align-content-between px-0 mx-0 h-100">
+                                                <div class="d-flex  justify-content-end h4 align-items-center"><i
+                                                        class="bi bi-three-dots-vertical"></i></div>
+
+                                                <div class="row px-0 mx-0 justify-content-around">
+                                                    <div class="col-10">
+                                                        <h4 class=" text-capitalize px-2">strength the soul
+                                                        </h4>
+                                                        <h6 class=" text-capitalize px-2">part 1</h6>
+
+                                                    </div>
+                                                    <span
+                                                        class="d-flex col-2 justify-content-center h3  align-items-center"><i
+                                                            class="bi bi-play-circle-fill"></i></span>
+
+                                                            <audio src="assets/audio/تقویت روح بخش اول.mp3"></audio>
+
+                                                </div>
+
+
+                                            </div>
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="mx-2 h-100">
+                                <figure class="w-100 h-100">
+                                    <div class="row px-0 mx-0 h-100">
+                                        <img src="assets/img/radiosam.jpg" alt="">
+                                        <figcaption class=" w-100">
+                                            <div class="row align-content-between px-0 mx-0 h-100">
+                                                <div class="d-flex  justify-content-end h4  align-items-center"><i
+                                                        class="bi bi-three-dots-vertical"></i></div>
+
+                                                <div class="row px-0 mx-0 justify-content-around">
+                                                    <div class="col-10">
+                                                        <h4 class=" text-capitalize  px-2">strength the soul
+                                                        </h4>
+                                                        <h6 class=" text-capitalize px-2">part 2</h6>
+
+                                                    </div>
+                                                    <span
+                                                        class="d-flex col-2 justify-content-center h3 align-items-center"><i
+                                                            class="bi bi-play-circle-fill"></i></span>
+
+                                                            <audio src="assets/audio/تقویت روح ، بخش دوم.mp3"></audio>
+
+                                                </div>
+
+
+                                            </div>
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="mx-2 h-100">
+                                <figure class="w-100 h-100 ">
+                                    <div class="row px-0 mx-0 h-100">
+                                        <img src="assets/img/radiosam.jpg" alt="">
+                                        <figcaption class=" w-100">
+                                            <div class="row align-content-between px-0 mx-0 h-100">
+                                                <div class="d-flex  justify-content-end h4  align-items-center"><i
+                                                        class="bi bi-three-dots-vertical"></i></div>
+
+                                                <div class="row px-0 mx-0 justify-content-around">
+                                                    <div class="col-10">
+                                                        <h4 class=" text-capitalize  px-2">strength the soul
+                                                        </h4>
+                                                        <h6 class=" text-capitalize px-2">part 3</h6>
+
+                                                    </div>
+                                                    <span
+                                                        class="d-flex col-2 justify-content-center h3  align-items-center"><i
+                                                            class="bi bi-play-circle-fill"></i></span>
+
+                                                            <audio src="assets/audio/تقویت روح ، بخش سوم.mp3"></audio>
+
+                                                </div>
+
+
+                                            </div>
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="mx-2 h-100">
+                                <figure class="w-100 h-100 ">
+                                    <div class="row px-0 mx-0 h-100">
+                                        <img src="assets/img/radiosam.jpg" alt="">
+                                        <figcaption class=" w-100">
+                                            <div class="row align-content-between px-0 mx-0 h-100">
+                                                <div class="d-flex  justify-content-end h4 align-items-center"><i
+                                                        class="bi bi-three-dots-vertical"></i></div>
+
+                                                <div class="row px-0 mx-0 justify-content-around">
+                                                    <div class="col-10">
+                                                        <h4 class="text-capitalize  px-2">strength the soul
+                                                        </h4>
+                                                        <h6 class="text-capitalize px-2">part 4</h6>
+
+                                                    </div>
+                                                    <span
+                                                        class="d-flex col-2 justify-content-center h3 align-items-center"><i
+                                                            class="bi bi-play-circle-fill"></i></span>
+
+                                                            <audio src="assets/audio/تقویت روح - بخش چهارم.mp3"></audio>
+
+                                                </div>
+
+
+                                            </div>
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="mx-2 h-100">
+                                <figure class="w-100 h-100 ">
+                                    <div class="row px-0 mx-0 h-100">
+                                        <img src="assets/img/radiosam.jpg" alt="">
+                                        <figcaption class=" w-100">
+                                            <div class="row align-content-between px-0 mx-0 h-100">
+                                                <div class="d-flex  justify-content-end h4  align-items-center"><i
+                                                        class="bi bi-three-dots-vertical"></i></div>
+
+                                                <div class="row px-0 mx-0 justify-content-around">
+                                                    <div class="col-10">
+                                                        <h4 class=" text-capitalize  px-2">strength the soul
+                                                        </h4>
+                                                        <h6 class=" text-capitalize px-2">part 5</h6>
+
+                                                    </div>
+                                                    <span
+                                                        class="d-flex col-2 justify-content-center h3 align-items-center"><i
+                                                            class="bi bi-play-circle-fill"></i></span>
+
+                                                            <audio src="assets/audio/تقویت روح - قسمت پنجم(1).mp3"></audio>
+
+                                                </div>
+
+
+                                            </div>
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="mx-2 h-100">
+                                <figure class="w-100 h-100">
+                                    <div class="row px-0 mx-0 h-100">
+                                        <img src="assets/img/radiosam.jpg" alt="">
+                                        <figcaption class=" w-100">
+                                            <div class="row align-content-between px-0 mx-0 h-100">
+                                                <div class="d-flex  justify-content-end h4  align-items-center"><i
+                                                        class="bi bi-three-dots-vertical"></i></div>
+
+                                                <div class="row px-0 mx-0 justify-content-around">
+                                                    <div class="col-10">
+                                                        <h4 class=" text-capitalize  px-2">strength the soul
+                                                        </h4>
+                                                        <h6 class=" text-capitalize px-2">part 6</h6>
+
+                                                    </div>
+                                                    <span
+                                                        class="d-flex col-2 justify-content-center h3  align-items-center"><i
+                                                            class="bi bi-play-circle-fill"></i></span>
+
+                                                            <audio src="assets/audio/تقویت روح - قسمت 6.mp3"></audio>
+
+                                                </div>
+
+
+                                            </div>
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="mx-2 h-100">
+                                <figure class="w-100 h-100">
+                                    <div class="row px-0 mx-0 h-100">
+                                        <img src="assets/img/radiosam.jpg" alt="">
+                                        <figcaption class=" w-100">
+                                            <div class="row align-content-between px-0 mx-0 h-100">
+                                                <div class="d-flex  justify-content-end h4  align-items-center"><i
+                                                        class="bi bi-three-dots-vertical"></i></div>
+
+                                                <div class="row px-0 mx-0 justify-content-around">
+                                                    <div class="col-10">
+                                                        <h4 class=" text-capitalize  px-2">strength the soul
+                                                        </h4>
+                                                        <h6 class=" text-capitalize px-2">part 7</h6>
+
+                                                    </div>
+                                                    <span
+                                                        class="d-flex col-2 justify-content-center h3 align-items-center"><i
+                                                            class="bi bi-play-circle-fill"></i></span>
+
+                                                            <audio src="assets/audio/تقویت روح - قسمت 7(آقای خاص).mp3"></audio>
+
+                                                </div>
+
+
+                                            </div>
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- *************section7 -->
+        <div class="container section3 ">
+            <div class="row justify-content-center justify-content-md-end">
+                <div class="col-11 col-md-10">
+                    <div class="row px-0 mx-0">
+                        <h3 class="text-capitalize text-start">playList</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ************section8 -->
+
+
+
+
+
+
+        <div class="container mt-2 mb-4 section4  ">
+            <div class="row gx-0 justify-content-center justify-content-md-end h-100">
+                <div class="col-11 col-md-10  h-100">
+                    <div class="row gx-0 px-0 mx-0 h-100 my-auto">
+
+
+
+                        <div id="ebi" class="responsive">
+
+
+
+
+                            <div class="mx-2 h-100">
+                                <figure class="w-100 h-100">
+                                    <div class="row px-0 mx-0 h-100">
+                                        <img class="w-100" src="assets/img/e5.jpg" alt="">
+                                        <figcaption class="h-100 w-100">
+
+                                            <span
+                                                class="d-flex w-100 p-2 h-100 justify-content-end h3 text-light align-items-end"><i
+                                                    class="bi bi-play-circle-fill"></i></span>
+
+                                            <audio id="tree" src="https://dl.pinkmusic.ir/uploads/2022/09/Ebi-Atre-To-128.mp3" loop></audio>
+
+
+
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="mx-2 h-100">
+                                <figure class="w-100 h-100">
+                                    <div class="row px-0 mx-0 h-100">
+                                        <img class="w-100" src="assets/img/e4.jfif" alt="">
+                                        <figcaption class="h-100 w-100">
+
+                                            <span
+                                                class="d-flex w-100 p-2 h-100 justify-content-end h3 text-light align-items-end"><i
+                                                    class="bi bi-play-circle-fill"></i></span>
+                                            <audio id="nilo" src="https://dl.pinkmusic.ir/uploads/2023/04/Ebi-Shabe-Niloofari.mp3" loop></audio>
+
+
+
+
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="mx-2 h-100">
+                                <figure class="w-100 h-100">
+                                    <div class="row px-0 mx-0 h-100">
+                                        <img class="w-100" src="assets/img/e3.jpg" alt="">
+                                        <figcaption class="h-100 w-100">
+
+                                            <span
+                                                class="d-flex w-100 h-100 p-2 justify-content-end h3 text-light align-items-end"><i
+                                                    class="bi bi-play-circle-fill"></i></span>
+                                            <audio  src="https://dl.pinkmusic.ir/uploads/2022/10/Ebi-Khali-.mp3"></audio>
+
+
+
+
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="mx-2 h-100">
+                                <figure class="w-100 h-100">
+                                    <div class="row px-0 mx-0 h-100">
+                                        <img class="w-100" src="assets/img/Ebi-Delpoosh.jpg" alt="">
+                                        <figcaption class="h-100 w-100">
+
+                                            <span
+                                                class="d-flex w-100 h-100 p-2 justify-content-end h3 text-light align-items-end"><i
+                                                    class="bi bi-play-circle-fill"></i></span>
+
+                                            <audio  src="https://dl.pinkmusic.ir/uploads/2023/03/Ebi-Delpoosh.mp3"
+                                                loop></audio>
+
+
+
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="mx-2 h-100">
+                                <figure class="w-100 h-100">
+                                    <div class="row px-0 mx-0 h-100">
+                                        <img class="w-100" src="assets/img/e1.jpg" alt="">
+                                        <figcaption class="h-100 w-100">
+
+                                            <span
+                                                class="d-flex p-2 w-100 h-100 justify-content-end h3 text-light align-items-end"><i
+                                                    class="bi bi-play-circle-fill"></i></span>
+
+                                            <audio id="janJavani" src="https://dl.pinkmusic.ir/uploads/2022/11/Ebi-Akharin-Bar.mp3" loop></audio>
+
+
+
+
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="mx-2 h-100">
+                                <figure class="w-100 h-100">
+                                    <div class="row px-0 mx-0 h-100">
+                                        <img class="w-100" src="assets/img/e7.jpg" alt="">
+                                        <figcaption class="h-100 w-100">
+
+                                            <span
+                                                class="d-flex p-2 w-100 h-100 justify-content-end h3 text-light align-items-end"><i
+                                                    class="bi bi-play-circle-fill"></i></span>
+
+                                            <audio  src="https://dl.pinkmusic.ir/uploads/2022/10/Ebi-Harighe-Sabz.mp3" loop></audio>
+
+
+
+
+
+
+                                        </figcaption>
+                                    </div>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+
+
+<script src="assets/js/master.js"></script>
+
+<script src="assets/js/slick.min.js"></script>
+<script>
+
+    $(document).ready(function () {
+        $('.responsive').slick({
+            dots: true,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+
+    })
+
+
+
+
+
+    // $('.filtering').slick({
+    //     slidesToShow: 5,
+    //     slidesToScroll: 5
+    // });
+
+    // var filtered = false;
+
+    // $('.js-filter').on('click', function () {
+    //     if (filtered === false) {
+    //         $('.filtering').slick('slickFilter', ':even');
+    //         $(this).text('Unfilter Slides');
+    //         filtered = true;
+    //     } else {
+    //         $('.filtering').slick('slickUnfilter');
+    //         $(this).text('Filter Slides');
+    //         filtered = false;
+    //     }
+    // });
+
+    // $('.autoplay').slick({
+    //     slidesToShow: 4,
+    //     slidesToScroll: 2,
+    //     autoplay: true,
+    //     autoplaySpeed: 2000,
+    // });
+
+</script>
+
+</script>
+
+
+
+</html>
