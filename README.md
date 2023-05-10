@@ -1,10 +1,10 @@
 # musicPlayer
 
-- [Demo Project](  https://mahsabbpour.github.io/keyboard/)
+- [Demo Project](  https://mahsabbpour.github.io/musicPlayer/)
 
 - Developed by Mahsa Babapour
 
-- Created - 2023-05-01
+- Created - 2023-05-06
 
 - Technologies Used - Html , scss , js 
 
